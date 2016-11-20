@@ -27,7 +27,7 @@
 
         <Button
             android:id="@+id/studentButton"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="@dimen/element_margin"
@@ -36,7 +36,7 @@
 
         <Button
             android:id="@+id/instructorButton"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="@dimen/element_margin"
@@ -45,13 +45,12 @@
 
         <Button
             android:id="@+id/adminButton"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="@dimen/element_margin"
             android:text="@string/description_administrator"
             android:textAppearance="?android:textAppearanceLarge" />
-
 
     </LinearLayout>
 
