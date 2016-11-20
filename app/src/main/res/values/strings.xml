@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">TrainingEvaluation</string>
+    <string name="app_name">Easy Evaluation</string>
+    <string name="instructions">Please choose your role for the class:</string>
+    <string name="description_student">I am a student</string>
+    <string name="description_instructor">I am an instructor</string>
+    <string name="description_administrator">I am an administrator</string>
 </resources>

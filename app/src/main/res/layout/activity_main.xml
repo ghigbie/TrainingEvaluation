@@ -10,8 +10,50 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.geogehigbie.trainingevaluation.MainActivity">
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/element_margin"
+            android:text="@string/instructions"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <Button
+            android:id="@+id/studentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/element_margin"
+            android:text="@string/description_student"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/instructorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/element_margin"
+            android:text="@string/description_instructor"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/adminButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/element_margin"
+            android:text="@string/description_administrator"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+
+    </LinearLayout>
+
+
 </RelativeLayout>
